@@ -1,7 +1,12 @@
 
 package co.edu.personasapi.domain;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "persona")
@@ -44,6 +49,6 @@ public class Persona {
 	 public void setId_tp(int id_tp) {
 	 this.id_tp_p = id_tp;
 	 }
-}
+} // Buen trabajo
 
 
