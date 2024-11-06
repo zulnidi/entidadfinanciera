@@ -50,5 +50,6 @@ public class Persona {
 	 this.id_tp_p = id_tp;
 	 }
 } // Buen trabajo
+// Good job
 
 
